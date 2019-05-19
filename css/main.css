@@ -1,0 +1,748 @@
+body
+{
+    margin:0;
+    padding:0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
+    font-weight: 100;
+}
+html
+{
+    scroll-behavior: smooth;
+    transition:0.9s
+}
+
+/* Start of Navigation bar*/
+
+.navbar
+{
+    padding:15px;
+    background:#232731;
+}
+.navbar .navbar-brand
+{
+    padding:10px;
+    color:#6b758c;
+    font-size:28px;
+    margin-right:80px;
+}
+.navbar span
+{
+    color:#ffffff;
+}
+.navbar .nav-item .nav-link
+{
+    color:rgb(190, 190, 190);
+    padding:10px;
+    font-size:16px;
+    margin-right:5px;
+}
+.navbar .nav-item .nav-link:hover
+{
+    color:#ff5274;
+    transition:0.8s;
+}
+.navbar-toggler-icon
+{
+    color:white
+}
+/* End of Navigation bar*/
+
+/*Start of Carousel*/
+
+.carousel-caption
+{
+   top:25%;
+   padding:10px;
+}
+.carousel-caption h1
+{
+    font-size:60px;
+    padding:5px;
+    margin-bottom:30px;
+}
+.carousel-caption p
+{
+    font-size:20px;
+    padding:5px;
+    margin-bottom:100px;
+    line-height: 29px;
+}
+.carousel-caption .button1 
+{
+    background:none;
+    border:none;
+    border-radius:20px;
+    margin:0 10px;
+}
+.carousel-caption .button1 a
+{
+    text-decoration: none;
+    color:white;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:14px;
+    padding-bottom:14px;
+    background-color:#ff5274;
+    border-radius:30px;
+}
+.carousel-caption .button1 a:hover
+{
+    background-color:#df4463;
+    transition:0.5s;
+}
+.carousel-caption .button2
+{
+    background:none;
+    border:none;
+    border-radius:20px;
+    margin:0 10px;
+}
+.carousel-caption .button2 a
+{
+    text-decoration: none;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:13px;
+    padding-bottom:13px;
+    color:#ff5274;
+    border-radius:30px;
+    border:2px solid #ff5274
+}
+
+.carousel-caption .button2 a:hover
+{
+    background-color:#ff5274;
+    color:white;
+    transition:0.5s;
+}
+
+/*End of Carousel*/
+
+/* Start of About*/
+
+.About
+{
+    background:#ffffff;
+    padding-top:250px;
+    padding-bottom:80px;
+    margin-top:0%;
+    margin-bottom:10%
+   
+}
+.About h1
+{
+   padding:10px;
+   margin-bottom: 2%;
+   border-bottom: 1px solid rgb(190, 190, 190);
+   margin-right:20%;
+   margin-left:20%;
+}
+.Feat .Icons
+{
+    display: inline-block;
+    padding: 6px 0 0 0;
+    margin-right: 20px;
+    width: 40px;
+    font-size: 25px;
+    color:#ff5274;
+    margin-bottom:10px;
+}
+
+.Feat h5
+{
+    font-size: 15px;
+    color: #3D4351;
+    font-weight: 500;
+}
+.Feat p
+{
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(28, 54, 83, 0.6);
+    padding-bottom: 20px;
+}
+
+/* End of About*/
+
+/* Start of Features*/
+
+.Features
+{
+    background:#f3f4f8;
+    padding-top:80px;
+    margin-top:6%;
+}
+.Features .Feat1
+{
+    margin-left:70px;
+    margin-right:50px;
+    padding-top:50px;
+}
+.Features .Feat1 h4
+{
+    color: #3D4351;
+    margin-bottom:5px;
+}
+.Features .Feat1 p
+{
+    color: rgba(28, 54, 83, 0.6);
+    margin-bottom:40px;
+}
+.Features .Feat1 .Feat1-content
+{
+    margin-top:5px;
+}
+.Features .Feat1 .Feat1-content span
+{
+    padding: 6px 0 0 0;
+    width: 40px;
+    font-size: 25px;
+    color:#ff5274;
+}
+.Features .Feat1 .Feat1-content h6
+{
+    color: #3D4351;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+.Features .Feat2
+{
+    margin-left:-100%;
+}
+/* End of Features*/
+
+/*Start of Assest*/
+.Assests
+{
+    margin-top:6%;
+    padding-top:120px;
+    padding-bottom:120px;
+}
+.Assests .Assest1
+{
+    padding-top:50px;
+    margin-left:0px;
+}
+.Assests .Assest1 h4
+{
+    color: #3D4351;
+    margin-bottom:5px;
+}
+.Assests .Assest1 p
+{
+    color: rgba(28, 54, 83, 0.6);
+    margin-bottom:40px;
+}
+.Assests .Assest1 .Button
+{
+    background:none;
+    border:none;
+    border-radius:20px;
+    margin:0 10px;
+    margin-top:10%
+}
+.Assests .Assest1 .Button a
+{
+    text-decoration: none;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:14px;
+    padding-bottom:14px;
+    color:#ff5274;
+    border-radius:30px;
+    border:2px solid #ff5274
+}
+
+.Assests .Assest1 .Button a:hover
+{
+    background-color:#ff5274;
+    color:white;
+    transition:0.5s;
+}
+.Assests .Assest2
+{
+    margin-left:10%;
+    padding-top:40px;
+}
+/*End of Assest*/
+
+/*Start of Customise-sedna*/
+
+.Customise
+{
+    background:url(hero.jpg);
+    margin-top:6%;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding-bottom:100px;
+    padding-top:50px;
+}
+.Customise .Customise-content
+{
+    padding:80px;
+    
+}
+.Customise .Customise-content h2
+{
+    font-size:40px;
+    color:rgb(255, 255, 255);
+    margin-bottom:2%
+}
+.Customise .Customise-content p
+{
+    color: #ACB1B4;
+    font-size:15px;
+}
+.Customise .Customise-content .button
+{
+    background:none;
+    border:none;
+    border-radius:20px;
+    margin-top:5%
+}
+.Customise .Customise-content .button a 
+{
+    text-decoration: none;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:13px;
+    padding-bottom:13px;
+    color:#ff5274;
+    border-radius:30px;
+    border:2px solid #ff5274
+}
+
+.Customise .Customise-content .button a:hover
+{
+    background-color:#ff5274;
+    color:white;
+    transition:0.5s;
+}
+
+.Customise .Customise-content .animation-image
+{
+    margin-top:10%;
+}
+
+/*End of Customise-sedna*/
+
+/*Start of blog-intro*/
+.Blog-sedna-intro
+{
+    background:#f3f4f8;
+    padding-top:20%;   
+}
+.Blog-sedna-intro  .Blog-content1
+{
+     margin:0 50px;
+     margin-bottom:40%
+}
+.Blog-sedna-intro h3
+{
+    color: #3D4351;
+    margin-bottom:100px;
+    font-size: 24px;
+}
+.Blog-sedna-intro .Blog-content h5
+{
+    color: #3D4351;
+    font-size:17px;
+}
+.Blog-sedna-intro .Blog-content p
+{
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(28, 54, 83, 0.6);
+    padding-bottom: 20px;
+}
+
+/*End of blog-intro*/
+
+/*Start of blog-images*/
+  .Blog-sedna-images
+  {
+    padding-top:10%;   
+    background:#f3f4f8;
+  }
+  .Blog-sedna-images .Blog-content2
+  {
+      padding-bottom:120px;
+  }
+  .Blog-sedna-images .Blog-content2 img
+  {
+      width:450px;
+      height:250px;
+      margin-bottom:20px;
+      border-radius:20px;
+      cursor: pointer;
+  }
+  .Blog-sedna-images .Blog-content2 img:hover
+  {
+      transform: scale(1.1);
+      border-radius:20px;
+      transition:0.5s;
+  }
+  .Blog-sedna-images .Blog-content2 a
+  {
+      text-decoration: none;
+      color:#ff5274
+  }
+  .Blog-sedna-images .Blog-content2 a:hover
+  {
+      transition:0.5s;
+      color:#ce3c59
+  }
+  .Blog-sedna-images .Blog-content2 p
+  {
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(28, 54, 83, 0.6);
+  }
+  .Blog-sedna-images .Blog-button .button
+  {
+    background:none;
+    border:none;
+    border-radius:20px;
+    margin-bottom:10% 
+  }
+  .Blog-sedna-images .Blog-button .button a 
+{
+    text-decoration: none;
+    padding-right:50px;
+    padding-left:50px;
+    padding-top:13px;
+    padding-bottom:13px;
+    color:#ff5274;
+    border-radius:30px;
+    border:2px solid #ff5274
+}
+
+.Blog-sedna-images .Blog-button .button a:hover
+{
+    background-color:#ff5274;
+    color:white;
+    transition:0.5s;
+}
+
+/*End of blog-images*/
+
+
+/*Start of Registration*/
+  .Registeration 
+  {
+      padding-top:20%;
+      margin-bottom:18%
+  }
+  .Registeration h3
+  {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #3D4351;
+  }
+
+  .Registeration p
+  {
+    font-size: 15px;
+    line-height: 29px;
+    color: rgba(28, 54, 83, 0.6);
+    padding-bottom: 20px;
+  }
+  .Registeration .Register 
+  {
+    text-align: center
+  }
+  .Registeration .Register input
+  {
+      border:none;
+      padding:10px;
+      color:rgb(134, 134, 134);
+      border-radius:10px;
+      float:left
+  }
+  .Registeration .Register .textbox
+  {
+      border:1px solid rgb(214, 214, 214);
+      border-radius:10px;
+      margin-left:35%;
+      margin-right:35%;
+      overflow: hidden;
+      margin-bottom:10px;
+  }
+  .Registeration .Register .textbox .fas
+  {
+    font-size:18px;
+    padding-right:13px;
+    float: left;
+    color:#ff5274;
+    margin-left:13px;
+    margin-top:13px;
+    border-right: 1px solid rgb(214, 214, 214)
+  }
+  .Registeration .Register .button
+  {
+    background:none;
+    border:none;
+    margin-bottom:10% ;
+    margin-top:1%;
+    margin-left:35%;
+    margin-right:35%;
+   
+    margin-bottom:10%;
+  }
+  .Registeration .Register .button a 
+{
+    text-decoration: none;
+    padding-right:95px;
+    padding-left:95px;
+    padding-top:13px;
+    padding-bottom:13px;
+    color:#ffffff;
+    border-radius:10px;
+    background:#ff5274
+    
+}
+/*End of Registration*/
+
+/*Start of Footer section*/
+  .Footer
+  {
+      padding:25px;
+      background:#232731;
+  }
+  .Footer h3
+  {
+      color:white;
+      padding:10px;
+      border-bottom:1px solid white;
+      margin-left:40%;
+      margin-right:40%;
+      margin-bottom:5%
+  }
+ 
+  .Footer-content .link
+  {
+   padding:10px;
+   margin:20px;
+   background:#171920;
+   border-radius:20px;
+   font-size:20px;
+   color:white;
+  }
+
+  .Footer-content :nth-child(1) a:hover
+  {
+    color: #c32aa3;
+    background:white;
+    transition:0.5s;
+  }
+  .Footer-content :nth-child(2) a:hover
+  {
+    color:#e20000;
+    background:white;
+    transition:0.5s;
+  }
+  .Footer-content :nth-child(3) a:hover
+  {
+    color:  #3b5998;
+    background:white;
+    transition:0.5s;
+  }
+/*End of Footer section*/
+
+
+
+
+
+
+
+/*start of media query*/
+
+@media (max-width: 702px) 
+{
+    .navbar
+    {
+      padding:0px;
+    }
+    
+    .Features .Feat2
+    {
+      margin-left:10px;
+      text-align: center;
+    }
+    .Features .Feat2 img
+    {
+        width:100%;
+        height:100%;
+    }
+    
+    .Assests .Assest2 img
+    {
+        width:100%;
+        height:100%;
+        margin-left:-50px;  
+    }
+    .Blog-sedna-images .Blog-content2 img
+    {
+        width:350px;
+        height:250px;
+        margin-bottom:20px;
+        border-radius:20px;
+        cursor: pointer;
+        margin-right:0%
+    }
+    .Customise .Customise-content .button
+{
+    background:none;
+    border:none;
+    border-radius:20px;
+    margin-top:5%
+}
+.Customise .Customise-content .button a 
+{
+    text-decoration: none;
+    padding-right:15px;
+    padding-left:15px;
+    padding:10px;
+    padding-bottom:10px;
+    color:#ff5274;
+    border-radius:30px;
+    border:2px solid #ff5274
+}
+.Customise .Customise-content .logo
+{
+    width:50%;
+    height:50%
+}
+   
+
+}
+
+@media (min-width: 767px) 
+{
+    .navbar
+    {
+      padding:0px;
+    }
+    
+    .Features .Feat2
+    {
+      margin-left:10px;
+      text-align: center;
+    }
+    .Features .Feat2 img
+    {
+        width:100%;
+        height:100%;
+    }
+    .Features .Feat2
+    {
+      
+      text-align: center;
+    }
+    
+    .Assests .Assest2 img
+    {
+        width:100%;
+        height:100%;
+        margin-left:-50px;  
+    }
+    .Blog-sedna-images .Blog-content2 img
+    {
+        width:720px;
+        height:300px;
+        margin-bottom:20px;
+        border-radius:20px;
+        cursor: pointer;
+    }
+ 
+
+}
+
+@media (min-width: 992px) 
+{
+    .navbar
+    {
+      padding:0px;
+    }
+    .Features .Feat2
+    {
+      margin-left:10px;
+      text-align: center;
+    }
+    .Features .Feat2 img
+    {
+        width:135%;
+        height:135%;
+        margin-top:90%;
+        margin-left:-25%
+    }
+   
+    .Assests .Assest2 img
+    {
+        width:130%;
+        height:130%;
+        margin-left:-50px;  
+        margin-top:20%
+    }
+    .Blog-sedna-images .Blog-content2 img
+    {
+        width:350px;
+        height:200px;
+        margin-bottom:20px;
+        border-radius:20px;
+        cursor: pointer;
+        
+    }
+
+}
+
+@media (min-width: 1200px) 
+{
+    .navbar
+    {
+      padding:15px;
+    }
+    .Features .Feat1
+    {
+        margin-left:20%
+    }
+    .Features .Feat2
+    {
+      margin-left:10px;
+      text-align: center;
+    }
+    .Features .Feat2 img
+    {
+        width:140%;
+        height:140%;
+        margin-top:34%;
+        margin-left:-80%;
+       
+    }
+    .Assests .Assest1
+    {
+        margin-left:-50%
+    }
+    .Assests .Assest2 img
+    {
+        width:150%;
+        height:150%;
+        margin-left:-50px;  
+        margin-top:0%
+    }
+    .Blog-sedna-images .Blog-content2 img
+    {
+        width:400px;
+        height:200px;
+        margin-bottom:20px;
+        border-radius:20px;
+        cursor: pointer;
+        margin:5%
+    }
+
+}
+
+
+/*start of media query*/
